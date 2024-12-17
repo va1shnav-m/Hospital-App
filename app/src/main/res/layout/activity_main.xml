@@ -1,0 +1,72 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#72A0FB"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital App"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#72A0FB"
+        android:gravity="center"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uname"/>
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:textColor="#72A0FB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="LOGIN"
+            android:id="@+id/logbutton"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:textColor="#72A0FB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Sign Up"
+            android:id="@+id/Signbutton"/>
+    </LinearLayout>
+
+</LinearLayout>
